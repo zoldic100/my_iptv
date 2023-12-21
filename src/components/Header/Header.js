@@ -1,9 +1,7 @@
-
-
-const Header = (props ) => {
+const Header = (props) => {
   return (
-    <div>{props.Header }--{props.text}</div>
-  )
-}
+      props.children
+  );
+};
 
-export default Header
+export default Header;

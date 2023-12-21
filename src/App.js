@@ -1,20 +1,20 @@
 import "./App.css";
+// src/index.css or src/App.js
+import "./styles/tailwind.css";
 
-import {Header, Container, Footer} from "./components/index";
+import { Header, Container, Footer,NavBar } from "./components/index";
 
 const App = () => {
   return (
     <>
-      <Header Header="nav from" text="props" />
-      <Container >
-        <h1>children</h1>
-            <p> bla bla</p>
-            <Header Header="container"  />
+      <Header  >
+      <NavBar/>
+      </Header>
+      <Container>
+        page
+      </Container>
 
-        <h2><i>grandchild</i> </h2>
-       </Container>
       <Footer />
-
     </>
   );
 };

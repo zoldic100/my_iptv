@@ -83,26 +83,26 @@ const NavBar = () => {
               <div className="flex space-x-4">
                 {/* Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" */}
                 <a
-                  href="#"
+                  href="#top"
                   className="bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium"
                   aria-current="page"
                 >
                   Dashboard
                 </a>
                 <a
-                  href="#"
+                  href="#top"
                   className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
                 >
                   Team
                 </a>
                 <a
-                  href="#"
+                  href="#top"
                   className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
                 >
                   Projects
                 </a>
                 <a
-                  href="#"
+                  href="#top"
                   className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
                 >
                   Calendar
@@ -170,7 +170,7 @@ const NavBar = () => {
                 tabIndex="-1"
               >
                 <a
-                  href="#"
+                  href="#top"
                   className="block px-4 py-2 text-sm text-gray-700"
                   role="menuitem"
                   tabIndex="-1"
@@ -179,7 +179,7 @@ const NavBar = () => {
                   Your Profile
                 </a>
                 <a
-                  href="#"
+                  href="#top"
                   className="block px-4 py-2 text-sm text-gray-700"
                   role="menuitem"
                   tabIndex="-1"
@@ -188,7 +188,7 @@ const NavBar = () => {
                   Settings
                 </a>
                 <a
-                  href="#"
+                  href="#top"
                   className="block px-4 py-2 text-sm text-gray-700"
                   role="menuitem"
                   tabIndex="-1"
@@ -215,26 +215,26 @@ const NavBar = () => {
       >
         <div className="space-y-1 px-2 pb-3 pt-2">
           <a
-            href="#"
+            href="#top"
             className="bg-gray-900 text-white block rounded-md px-3 py-2 text-base font-medium"
             aria-current="page"
           >
             Dashboard
           </a>
           <a
-            href="#"
+            href="#top"
             className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
           >
             Team
           </a>
           <a
-            href="#"
+            href="#top"
             className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
           >
             Projects
           </a>
           <a
-            href="#"
+            href="#top"
             className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
           >
             Calendar

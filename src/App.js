@@ -2,7 +2,8 @@ import "./App.css";
 // src/index.css or src/App.js
 import "./styles/tailwind.css";
 
-import { Header, Container, Footer,NavBar } from "./components/index";
+import {  Container } from "./components/index";
+import { Header,NavBar,Hero,MostPoupular, Footer, } from "./sections/index";
 
 const App = () => {
   return (
@@ -11,7 +12,8 @@ const App = () => {
       <NavBar/>
       </Header>
       <Container>
-        page
+        <Hero/>
+        <MostPoupular />
       </Container>
 
       <Footer />

@@ -1,0 +1,8 @@
+.most-popular-item-image{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+.card-wrapper{
+    background-color: var(--dark-color);
+}

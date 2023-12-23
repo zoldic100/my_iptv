@@ -1,0 +1,4 @@
+.hero-main{
+    background-color: var(--dark-color);
+    background: url('../../assets/images/hero.png') no-repeat top right/cover;
+}

@@ -1,10 +1,24 @@
+import React from 'react';
+// npm install classnames
+
+import classNames from 'classnames';
+
 const Button = (props) => {
+  const buttonClasses = classNames(
+    'inline-block',
+    'px-4',
+    'py-2',
+    'my-5',
+    'font-bold',
+    'rounded-full',
+
+    props.className // Merge additional classes passed as a prop
+  );
+
   return (
     <>
-      <div className="mean-button ">
-        <button className="inline-block px-4 py-2 my-5 bg-pink-500 hover:bg-pink-300 text-white font-bold rounded-full">
-          {props.value}
-        </button>
+      <div className="mean-button">
+        <button className={buttonClasses}>{props.value}</button>
       </div>
     </>
   );

@@ -11,7 +11,7 @@ const Hero  = () => {
                 <em className='text-pink-500'>Browse </em>
                 Our Poupular Offers
             </h4>
-            <Button value="Brows Now"/>
+            <Button className=" bg-pink-500 hover:bg-pink-300 text-white" value="Brows Now"/>
         </div>
     </div>
   )

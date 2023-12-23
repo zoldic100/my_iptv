@@ -1,5 +1,6 @@
 export {default as Container} from './Container/Container'
 export {default as Button} from './Button/Button'
+export {default as GamingLabraryCard} from './GamingLabraryCard/GamingLabraryCard'
 export {default as Card} from './Card/Card'
 export {default as SectionHeader} from './SectionHeader/SectionHeader'
 export {default as SectionDiv} from './SectionDiv/SectionDiv'

@@ -16,9 +16,9 @@ const Card = (props) => {
         />
         <div className="most-popular-item-content sm:text-xs  md:text-sm text-md flex justify-between">
           <h4 className="">
-            Anxiety
+            {props.title}
             <br />
-            <span>SandBox</span>
+            <span>{props.company}</span>
           </h4>
           <ul className="">
             <li className="flex justify-between gap-1">
@@ -26,13 +26,13 @@ const Card = (props) => {
                 <FaStar />
               </span>
 
-              <span>4.8</span>
+              <span>{props.rate}</span>
             </li>
             <li className="flex justify-between gap-1">
               <span className="text-pink-500">
                 <FaDownload />
                 </span>
-                <span>2.3M</span>
+                <span>{props.download}M</span>
               
             </li>
           </ul>

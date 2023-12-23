@@ -3,7 +3,7 @@ import "./App.css";
 import "./styles/tailwind.css";
 
 import {  Container } from "./components/index";
-import { Header,NavBar,Hero,MostPoupular, Footer, } from "./sections/index";
+import { Header,NavBar,Hero,MostPoupular,GamingLabrary, Footer, } from "./sections/index";
 
 const App = () => {
   return (
@@ -14,6 +14,7 @@ const App = () => {
       <Container>
         <Hero/>
         <MostPoupular />
+        <GamingLabrary/>
       </Container>
 
       <Footer />

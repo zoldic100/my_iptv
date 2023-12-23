@@ -1,12 +1,13 @@
 import React from 'react'
 import {Button} from '../index'
+import './GamingLabraryCard.css'
 const GamingLabraryCard = (props) => {
   return (
     <>
-    <div className="gaming-labrary-card">
-        <ul>
+    <div className="gaming-labrary-card ">
+        <ul className='flex align-middle justify-between  border-b  border-gray-600 my-3 md:px-6'>
             <li>
-                <img src={props.img} alt="" />
+                <img width={80} className='rounded-lg' src={props.src} alt="" />
             </li>
             <li>
                 <h4>{props.title}</h4><span>{props.company}</span>

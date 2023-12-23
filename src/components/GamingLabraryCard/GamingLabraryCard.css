@@ -1,0 +1,16 @@
+/* flex-grow-1 flex-shrink-1 flex-basis-100 */
+.gaming-labrary-card{
+
+    flex: 1 1 100%;
+}
+.gaming-labrary-card h4{
+font-size: 1rem;
+    
+}
+
+.gaming-labrary-card span{
+font-size: 0.8rem;
+font-weight: 100;
+color: gray;
+    
+}

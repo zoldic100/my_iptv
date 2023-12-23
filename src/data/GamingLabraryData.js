@@ -9,8 +9,8 @@ const GamingLabraryData =[
       src: anxiety,
       title: "anxiety",
       company: "Epic",
-      date_added: "4.8",
-      hours_played:"600 H 22 Mins",
+      date_added: "20-02-2020",
+      hours_played:"630 H 33 Mins",
       currently: "Downloaded",
     },
     {
@@ -18,8 +18,8 @@ const GamingLabraryData =[
       src: Big_gym,
       title: "Big_gym",
       company: "2K",
-      date_added: "4.1",
-      hours_played:"600 H 22 Mins",
+      date_added: "24-12-2018",
+      hours_played:"723 H 26 Mins",
       currently: "Downloaded",
     },
     {
@@ -27,7 +27,7 @@ const GamingLabraryData =[
       src: people,
       title: "people",
       company: "Marvel",
-      date_added: "3.5",
+      date_added: "15-03-2023",
       hours_played:"600 H 22 Mins",
       currently: "Downloaded",
     },
@@ -37,8 +37,8 @@ const GamingLabraryData =[
       src: African,
       title: "African",
       company: "Epic",
-      date_added: "1.11",
-      hours_played:"600 H 22 Mins",
+      date_added: "11-11-2023",
+      hours_played:"250 H 11 Mins",
       currently: "Downloaded",
     }
   ]

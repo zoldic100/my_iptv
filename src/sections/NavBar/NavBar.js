@@ -1,6 +1,7 @@
+import { Link } from "react-router-dom";
 import React, { useState } from "react";
 import logo from "../../assets/images/logo.png";
-import dropdown from "../../assets/images/down-chevron.png";
+import { IoMdArrowDropdown } from "react-icons/io";
 
 const NavBar = () => {
   // State for mobile menu visibility
@@ -74,7 +75,9 @@ const NavBar = () => {
           {/* nav logo  */}
           <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
             <div className="flex flex-shrink-0 items-center">
-              <img className="h-8 w-auto" src={logo} alt="my_iptv" />
+              <Link to={"/"}>
+                <img className="h-8 w-auto" src={logo} alt="gamefy" />
+              </Link>
             </div>
           </div>
           {/* end nav logo  */}
@@ -83,7 +86,7 @@ const NavBar = () => {
             {/* notification button */}
             <button
               type="button"
-              className="relative rounded-full bg-gray-800 p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
+              className="relative rounded-full bg-trensparent  p-1 text-gray-400 hover:text-white   "
             >
               <span className="absolute -inset-1.5"></span>
               <span className="sr-only">View notifications</span>
@@ -110,13 +113,12 @@ const NavBar = () => {
               <div className="hidden sm:ml-6 sm:block">
                 <div className="flex space-x-4">
                   {/* Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" */}
-                  <a
-                    href="#top"
-                    className="bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium"
-                    aria-current="page"
+                  <Link
+                    to={"/"}
+                    className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
                   >
-                    Dashboard
-                  </a>
+                    Home
+                  </Link>
                   <a
                     href="#top"
                     className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
@@ -129,12 +131,12 @@ const NavBar = () => {
                   >
                     Projects
                   </a>
-                  <a
-                    href="#top"
+                  <Link
+                    to={"/about_us"}
                     className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
                   >
-                    Calendar
-                  </a>
+                    About Us
+                  </Link>
                 </div>
               </div>
               {/*end nav link */}
@@ -143,14 +145,14 @@ const NavBar = () => {
                 <button
                   type="button"
                   onClick={toggleProfileDropdown}
-                  className="relative flex rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
+                  className="relative flex rounded-full bg-transparet text-sm  focus:ring-white focus:ring-offset-1 focus:ring-offset-gray-800"
                   id="user-menu-button"
                   aria-expanded="false"
                   aria-haspopup="true"
                 >
                   <span className="absolute -inset-1.5"></span>
                   <span className="sr-only">Open user menu</span>
-                  <img className="h-8 w-8 rounded-full" src={dropdown} alt="" />
+                  <IoMdArrowDropdown />
                 </button>
               </div>
               {/* end dropdown button */}
@@ -230,10 +232,10 @@ const NavBar = () => {
             Projects
           </a>
           <a
-            href="#top"
+            href="/about_us"
             className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
           >
-            Calendar
+            About Us
           </a>
         </div>
       </div>
